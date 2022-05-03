@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 baseURL = 'https://magicyang876.github.io'
 contentdir= "content"
 layoutdir= "layouts"
 publishdir= "magicyang876.github.io"
+=======
+baseURL = 'https://magicyang876.github.io/MyBlog/'
+contentdir= "content"
+layoutdir= "layouts"
+publishdir= "public"
+>>>>>>> 20510a751d4b8db05278f5071c33656fcfcd9c43
 languageCode = 'en-us'
 title = "James's Blog"
 theme = "yinyang"
