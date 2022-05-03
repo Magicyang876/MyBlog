@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James&#39;s Blog</title>
+    <link>https://magicyang876.github.io/</link>
+    <description>Recent content on James&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 May 2022 12:41:12 +0800</lastBuildDate><atom:link href="https://magicyang876.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>https://magicyang876.github.io/posts/test-post/</link>
+      <pubDate>Tue, 03 May 2022 12:41:12 +0800</pubDate>
+      
+      <guid>https://magicyang876.github.io/posts/test-post/</guid>
+      <description>Hello world2 </description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://magicyang876.github.io/posts/first-post/</link>
+      <pubDate>Tue, 03 May 2022 12:04:06 +0800</pubDate>
+      
+      <guid>https://magicyang876.github.io/posts/first-post/</guid>
+      <description>Hello world </description>
+    </item>
+    
+  </channel>
+</rss>
