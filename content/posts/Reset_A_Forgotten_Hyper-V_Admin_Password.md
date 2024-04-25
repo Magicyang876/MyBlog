@@ -1,7 +1,7 @@
 ---
 title: "Reset_A_Forgotten_Hyper V_Admin_Password"
 date: 2024-04-25T14:28:24+08:00
-draft: true
+#draft: true
 categories:
     - "VM"
 ---
