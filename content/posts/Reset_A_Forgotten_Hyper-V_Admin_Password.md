@@ -35,3 +35,6 @@ This will copy the command line executable and rename it as the utilman.exe file
 
 ## How Do I Protect My Server Against This Exploit?
 Set a BIOS password on the Hyper-V host and change the boot order to exclude CD-ROMs and USB drives. 
+
+## Reference
+<https://www.altaro.com/hyper-v/reset-forgotten-hyper-v-admin-password-windows-cd/>
