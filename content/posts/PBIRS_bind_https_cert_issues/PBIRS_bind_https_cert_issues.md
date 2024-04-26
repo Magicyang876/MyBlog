@@ -3,7 +3,7 @@ title: "PBIRS_bind_https_cert_issues"
 date: 2024-04-26T14:18:48+08:00
 draft: false
 categories:
-    - "PBIRS"
+    - "pbirs"
 ---
 
 ## Desc
