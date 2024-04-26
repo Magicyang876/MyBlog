@@ -25,13 +25,13 @@ categories:
 ## Revert the Ease of Access menu back to normal
     Copy utilman.exe.old utilman.exe
 ## What if I Am Using Windows Server Core? Windows core doesn't have GUI.
-The Utilman.exe file is not included in the install of server core. So when you boot to the windows CD you can skip the part where you back up the utilman.exe executable. Type in the following commands:
+#### The Utilman.exe file is not included in the install of server core. So when you boot to the windows CD you can skip the part where you back up the utilman.exe executable.Type in the following commands
     D:
     Cd Windows/system32
     Copy cmd.exe utilman.exe
 ![Alt text](image-2.png)
 
-This will copy the command line executable and rename it as the utilman.exe file. When the host is rebooted, it will think the utilman.exe file exists and the Ease of Access button will respond by opening the command prompt when clicked on.
+#### This will copy the command line executable and rename it as the utilman.exe file. When the host is rebooted, it will think the utilman.exe file exists and the Ease of Access button will respond by opening the command prompt when clicked on.
 
 ## How Do I Protect My Server Against This Exploit?
 Set a BIOS password on the Hyper-V host and change the boot order to exclude CD-ROMs and USB drives. 
