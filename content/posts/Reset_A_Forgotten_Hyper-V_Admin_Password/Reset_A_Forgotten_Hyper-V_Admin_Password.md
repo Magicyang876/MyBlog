@@ -13,9 +13,9 @@ categories:
     cd Windows/system32
     Ren utilman.exe utilman.exe.old
     Copy cmd.exe utilman.exe
-![Alt text](../image.png)
+![Alt text](image.png)
 ## Reboot the host and start up normally. At the login screen click on the ease of access button in the lower left corner. A command prompt running as the system account will appear.
-![Alt text](../image-1.png)
+![Alt text](image-1.png)
 ## Type the following commands to change the local administrator password and enable the account if it’s disabled:
     Net user administrator newpassword
     Net user Administrator /active:yes
@@ -29,7 +29,7 @@ The Utilman.exe file is not included in the install of server core. So when you 
     D:
     Cd Windows/system32
     Copy cmd.exe utilman.exe
-![Alt text](../image-2.png)
+![Alt text](image-2.png)
 
 This will copy the command line executable and rename it as the utilman.exe file. When the host is rebooted, it will think the utilman.exe file exists and the Ease of Access button will respond by opening the command prompt when clicked on.
 

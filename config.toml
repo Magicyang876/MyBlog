@@ -6,6 +6,7 @@ languageCode = 'en-us'
 title = "James's Blog"
 theme = "yinyang"
 DefaultContentLanguage = "cn"
+disablePathToLower = true
 canonifyurls = true
 [taxonomies]
   category = "categories"
@@ -19,9 +20,9 @@ canonifyurls = true
     noClasses = true
     style = "bw"
     tabWidth = 2
-# [author]
-#   name = "James"
 [params]
 headTitle = "James Wang"
 mainSections = ["posts"]
+[permalinks]
+  posts = "/posts/:slug/"
 
