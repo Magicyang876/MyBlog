@@ -6,7 +6,7 @@ languageCode = 'en-us'
 title = "James's Blog"
 theme = "yinyang"
 DefaultContentLanguage = "cn"
-disablePathToLower = false
+disablePathToLower = true
 canonifyurls = true
 [taxonomies]
   category = "categories"

@@ -3,7 +3,7 @@ title: "RLS_role_loss"
 date: 2024-04-26T14:40:28+08:00
 draft: false
 categories:
-    - "PBIRS"
+    - "pbirs"
 ---
 
 ## Desc
