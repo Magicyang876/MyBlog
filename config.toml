@@ -21,7 +21,7 @@ canonifyurls = true
     style = "bw"
     tabWidth = 2
 [params]
-headTitle = "James Wang"
+headTitle = "James Wang's Garden"
 description = "知否知否，应是绿肥红瘦。"
 mainSections = ["posts"]
 [permalinks]
