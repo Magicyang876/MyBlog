@@ -24,6 +24,8 @@ canonifyurls = true
 headTitle = "James Wang's Garden"
 description = "知否知否，应是绿肥红瘦。"
 mainSections = ["posts"]
+favicon = "logo.ico"
+
 [permalinks]
   posts = "/posts/:slug/"
   
