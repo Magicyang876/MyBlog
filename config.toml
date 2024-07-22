@@ -26,9 +26,12 @@ description = "知否知否，应是绿肥红瘦。"
 mainSections = ["posts"]
 favicon = "logo.ico"
 
+[author]
+name = "James Wang"
+
 [[params.socials]]
 name = "Contact(Telegram : magicyang876)"
-link = "t.me/magicyang876"
+link = "https://t.me/magicyang876"
 
 [permalinks]
   posts = "/posts/:slug/"
