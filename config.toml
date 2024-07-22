@@ -26,6 +26,10 @@ description = "知否知否，应是绿肥红瘦。"
 mainSections = ["posts"]
 favicon = "logo.ico"
 
+[[params.socials]]
+name = "Contact(Telegram : magicyang876)"
+link = "t.me/magicyang876"
+
 [permalinks]
   posts = "/posts/:slug/"
   
