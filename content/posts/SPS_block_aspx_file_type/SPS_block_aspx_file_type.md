@@ -5,10 +5,19 @@ draft: false
 categories:
     - "sps"
 ---
+# Table of Contents
+- [Background](#background)
+- [Desc](#desc)
+- [Workaround](#workaround)
+  - [在Web应用程序级别控制活动内容](#在web应用程序级别控制活动内容)
+- [其他建议-使用域隔离来控制活动内容](#其他建议-使用域隔离来控制活动内容)
+- [总结](#总结)
+
 
 ## Background
-### 活动内容是指在用户浏览器中执行并代表用户执行操作的网络标记或控件。JavaScript 是最常见的活动内容类型。
-### 高权限用户可以在 SharePoint 站点中嵌入活动内容。恶意用户可以添加活动内容，与其他 SharePoint 页面进行交互，执行未经受害者同意的不良操作。
+活动内容是指在用户浏览器中执行并代表用户执行操作的网络标记或控件。JavaScript 是最常见的活动内容类型。
+
+高权限用户可以在 SharePoint 站点中嵌入活动内容。恶意用户可以添加活动内容，与其他 SharePoint 页面进行交互，执行未经受害者同意的不良操作。
 - 读取、贡献和编辑权限级别不包括添加和自定义页面权限级别。这些用户无法添加或修改活动内容。
 
 - 设计和完全控制权限级别包括添加和自定义页面权限。这些用户可以添加或修改活动内容。
@@ -16,15 +25,18 @@ categories:
 - 网站集合管理员隐式授予添加和自定义页面权限。
 
 ## Desc
-### SharePoint管理中心的“阻止的文件类型”设置默认不限制ASPX文件的上传下载，因此不生效是预期行为。
+SharePoint管理中心的“阻止的文件类型”设置默认不限制ASPX文件的上传下载，因此不生效是预期行为。
 
 ## Workaround
-### SharePoint提供对主动上传的ASPX文件禁用加载的方法，也就是禁用custom scripts。可以使用管理员身份运行下面的PowerShell指令，对单个站点关闭custom scripts：
+SharePoint提供对主动上传的ASPX文件禁用加载的方法，也就是禁用custom scripts。可以使用管理员身份运行下面的PowerShell指令，对单个站点关闭custom scripts：
+
     (Get-SPSite -Identity <siteURL>).DenyPermissionsMask = [Microsoft.SharePoint.SPBasePermissions]::AddAndCustomizePages
 
-### 如需重新启用custom scripts
+如需重新启用custom scripts
+
     (Get-SPSite -Identity <siteURL>).DenyPermissionsMask = [Microsoft.SharePoint.SPBasePermissions]::EmptyMask
 如需验证当前状态，可以运行：
+
     (Get-SPSite -Identity <siteURL>).DenyPermissionsMask
 默认返回值是EmptyMask，表示启用。
 

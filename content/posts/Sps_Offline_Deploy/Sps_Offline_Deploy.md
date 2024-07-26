@@ -5,11 +5,20 @@ draft: false
 categories:
     - "sps"
 ---
+# Table of Contents
+- [Desc](#desc)
+- [Casue](#casue)
+- [Fix](#fix)
+- [Note](#note)
+  - [Why?](#why)
+  - [Fix](#fix-1)
+- [Reference](#reference)
 
 ## Desc
-### SharePoint fails to run production configuration wizard for a new farm
+SharePoint fails to run production configuration wizard for a new farm
 ![alt text](image.png)
-### PSCDiagnostics log sample:
+PSCDiagnostics log sample:
+
     ERR Exception: Microsoft.SharePoint.Upgrade.SPUpgradeException: One or more types failed to load. Please refer to the upgrade log for more details.
     at Microsoft.SharePoint.Upgrade.SPActionSequence.LoadUpgradeActions()
     at Microsoft.SharePoint.Upgrade.SPActionSequence.get_Actions()

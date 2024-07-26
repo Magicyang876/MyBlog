@@ -5,6 +5,10 @@ draft: false
 categories:
     - "sps"
 ---
+# Table of Contents
+- [Background](#background)
+- [Solution](#solution)
+- [Reference](#reference)
 
 ## Background
 The sps exposes the IIS and SharePoint version, which can then be used to research security vulnerabilities in those particular versions.
@@ -41,7 +45,7 @@ Create your custom error page, which can be a simple html page to start with or 
 Save your custom error pages to the below location on your SharePoint servers:
 C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\1033
  
-### Set the SharePoint error pages on non publishing sites:
+Set the SharePoint error pages on non publishing sites:
 
     $webApp = Get-SPWebApplication https://testsite.com
     $webApp.FileNotFoundPage = “CustomError_Page.html”
@@ -51,7 +55,8 @@ C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE
     $webApp.UpdateMappedPage([Microsoft.SharePoint.Administration.SPWebApplication+SPCustomPage]::Error,"/_layouts/1033/CustomError_Page.html")
     $webApp.Update()
 
-### configure the publishing sites
+configure the publishing sites
+
     $site = get-spsite 'https://testsite.com'
     $site.FileNotFoundUrl = ""
 If you set the site level error page to a blank value "", then the web app level setting we just set will override this and the site will be consistent with the other non publishing sites.
