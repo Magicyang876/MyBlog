@@ -5,7 +5,7 @@ draft: false
 categories:
     - "spo"
 ---
-# Table of Contents- [DESC](#desc)
+# Table of Contents
 - [DESC](#desc)
 - [Script](#script)
 - [Note](#note)
@@ -51,7 +51,7 @@ To prevent Windows from generating thumbs.db files, disable thumbnail caching in
 - Click OK.
 
 Beginning with Windows Vista, thumbnail previews are stored in a centralized location on the system. The cache is stored at %userprofile%\AppData\Local\Microsoft\Windows\Explorer
-
+![alt text](image.png)
 However, when browsing network shares with write permission, Windows Vista and Windows 7 store a Thumbs.db file in the remote directory instead of using the (local) central thumbnail cache.
 
 ### Office ~$ Files
