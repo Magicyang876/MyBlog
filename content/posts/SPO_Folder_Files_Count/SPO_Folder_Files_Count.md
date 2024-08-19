@@ -6,14 +6,14 @@ categories:
     - "spo"
 ---
 # Table of Contents
-- [DESC](#desc)
+- [Desc](#desc)
 - [Script](#script)
 - [Note](#note)
   - [Thumbs.db](#thumbsdb)
   - [Office ~$ Files](#office--files)
 - [Reference](#reference)
 
-## DESC
+## Desc
 Sometimes we want to get the file count and total size of a specific folder within a SPO library.
 
 ## Script
