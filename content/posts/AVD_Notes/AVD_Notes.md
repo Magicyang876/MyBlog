@@ -3,7 +3,8 @@ title: "AVD_Notes"
 date: 2024-08-29T09:38:33+08:00
 draft: false
 categories:
-    - ""
+    - "azure"
+    - "avd"
 ---
 # Table of Contents
 - [Desc](#desc)
@@ -71,3 +72,5 @@ If you still cannot login the remote desktop, you can try unsubscribe and subscr
 https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access#how-is-default-outbound-access-provided
 
 https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-ad-joined-session-hosts#connect-using-legacy-authentication-protocols
+
+https://azure.microsoft.com/en-us/updates/default-outbound-access-for-vms-in-azure-will-be-retired-updates-and-more-information/
