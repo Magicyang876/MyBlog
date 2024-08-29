@@ -69,4 +69,5 @@ If you still cannot login the remote desktop, you can try unsubscribe and subscr
 
 ## Reference
 https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access#how-is-default-outbound-access-provided
+
 https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-ad-joined-session-hosts#connect-using-legacy-authentication-protocols
