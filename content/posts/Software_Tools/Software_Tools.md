@@ -26,7 +26,7 @@ Share some good softwares and tools. Mainly focus on open source and free tools.
 |Screenshot|Snipaste|
 |Screenshot Recorder|OBS,Mini Screen Recorder|
 |Comprehensive tools|OpenArk|
-|System Optimization|CCleaner|
+|System Optimization|CCleaner,Optimizer|
 |Compression tools|7-Zip|
 |Diagram Software|draw.io,ProcessOn|
 |Search | Everything|
@@ -37,4 +37,6 @@ Share some good softwares and tools. Mainly focus on open source and free tools.
 |Remote Service| RustDesk|
 |PDF | SumatraPDF|
 |File Size| TreeSize|
-|Office| M365,OpenOffice,LibreOffice|
+|Office| M365,OpenOffice,LibreOffice,OfficeToolPlus|
+|IP Scanner| Advanced IP Scanner|
+|Profile Migration| Profwiz|
