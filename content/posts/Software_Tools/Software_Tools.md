@@ -16,13 +16,15 @@ categories:
 Share some good softwares and tools. Mainly focus on open source and free tools.
 
 ## Software Table
-| Category    | Tool |
-| -------- | ------- |
+
+
+| Category  | Tool |
+| -------- | ----------------- |
 | Remote Tool |  1Remote, mRemoteNG   |
 | File explorer | OneCommander, Explorer++  |
 | Password Manager    | KeePass   |
-|API Test|Postman|
-|Translator|Lingoes,Document Translation(Azure needed)|
+| API Test | Postman |
+<!-- |Translator|Lingoes,Document Translation(Azure needed)|
 |Screenshot|Snipaste|
 |Screenshot Recorder|OBS,Mini Screen Recorder|
 |Comprehensive tools|OpenArk|
@@ -39,4 +41,4 @@ Share some good softwares and tools. Mainly focus on open source and free tools.
 |File Size| TreeSize|
 |Office| M365,OpenOffice,LibreOffice,OfficeToolPlus|
 |IP Scanner| Advanced IP Scanner|
-|Profile Migration| Profwiz|
+|Profile Migration| Profwiz| -->

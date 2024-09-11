@@ -25,13 +25,23 @@ headTitle = "James Wang's Garden"
 description = "知否知否，应是绿肥红瘦。"
 mainSections = ["posts"]
 favicon = "logo.ico"
+custom_css = ["custom.css"]
+
+extraCSSFiles = ["css/custom.css"]
+
+[params.author.name]
+name = "James Wang"
 
 [author]
 name = "James Wang"
 
-[[params.socials]]
-name = "Contact(Telegram : magicyang876)"
+[[params.socials1]]
+name = "Contact(Telegram)"
 link = "https://t.me/magicyang876"
+
+[[params.socials]]
+name = "Contact(X)"
+link = "https://x.com/nameisacrazyjob"
 
 [permalinks]
   posts = "/posts/:slug/"
