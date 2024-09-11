@@ -26,7 +26,6 @@ description = "知否知否，应是绿肥红瘦。"
 mainSections = ["posts"]
 favicon = "logo.ico"
 custom_css = ["custom.css"]
-
 extraCSSFiles = ["css/custom.css"]
 
 [params.author.name]
