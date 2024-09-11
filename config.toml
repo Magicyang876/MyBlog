@@ -35,13 +35,6 @@ name = "James Wang"
 [author]
 name = "James Wang"
 
-[[params.socials1]]
-name = "Contact(Telegram)"
-link = "https://t.me/magicyang876"
-
-[[params.socials]]
-name = "Contact(X)"
-link = "https://x.com/nameisacrazyjob"
 
 [permalinks]
   posts = "/posts/:slug/"
