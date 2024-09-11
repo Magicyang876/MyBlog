@@ -25,7 +25,7 @@ headTitle = "James Wang's Garden"
 description = "知否知否，应是绿肥红瘦。"
 mainSections = ["posts"]
 favicon = "logo.ico"
-custom_css = ["custom.css"]
+custom_css = ["css/custom.css"]
 extraCSSFiles = ["css/custom.css"]
 
 [params.author.name]
@@ -37,6 +37,7 @@ name = "James Wang"
 
 [permalinks]
   posts = "/posts/:slug/"
+
   
 
 
