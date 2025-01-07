@@ -1,5 +1,5 @@
 ---
-title: "Cannot_connect_remote_host_via_Hyper V_manager"
+title: "Cannot_connect_remote_host_via_HyperV_manager"
 date: 2025-01-07T16:31:41+08:00
 draft: false
 categories:
@@ -9,16 +9,15 @@ categories:
 # Table of Contents
 <!-- TOC -->
 
-- [Desc](#desc)
+        - [Network is ok, remote desktop can connect.](#network-is-ok-remote-desktop-can-connect)
+        - [WS management service is running.](#ws-management-service-is-running)
+        - [Firewall is not blocked.](#firewall-is-not-blocked)
+        - [Remote host has been add to the trusted list on client.](#remote-host-has-been-add-to-the-trusted-list-on-client)
+        - [<Test-WSMan -ComputerName "RemoteHostName"> failed with same error message.](#test-wsman--computername-remotehostname-failed-with-same-error-message)
 - [Fix](#fix)
 - [Reference](#reference)
 
 <!-- /TOC -->
-
-
-## Desc
-Somehow cannot connect to remote host via hyper-v manager. 
-Error message: 
 "the operation on computer failed:the connection to the specified remote host was refused. verify that the ws-management service is running on the remote host and configured to listen for requests on the correct port and http url"
 
 #### Network is ok, remote desktop can connect.
