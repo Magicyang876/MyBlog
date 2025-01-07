@@ -35,7 +35,7 @@ But I forgot to unset it. So, what you need to do is unset the proxy via below c
 
     netsh winhttp reset proxy
 
-![alt text](image.png)
+![alt text](image2.png)
 
 ## Reference
 https://qianxu.run/2021/08/18/powershell-proxy/index.html
