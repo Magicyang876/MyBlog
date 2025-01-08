@@ -1,5 +1,5 @@
 ---
-title: "Cannot_install_ssms"
+title: "cannot_install_ssms"
 date: 2025-01-08T11:01:41+08:00
 draft: false
 categories:
